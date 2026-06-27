@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard | JSL Digital Learning Academy</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/dashboard.css">
+<link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+
+<header class="topbar">
+<div>
+<h1 id="welcomeName">Welcome to JSL Digital Learning Academy</h1>
+<p id="currentDate"></p>
+</div>
+
+<div class="profile">
+<div class="avatar"><i class="fa-solid fa-user"></i></div>
+<div>
+<h3 id="profileName">Employee</h3>
+<p id="roleName">User</p>
+</div>
+</div>
+</header>
+
+<section class="journey">
+
+<h2>Learning Journey</h2>
+
+<div class="steps">
+
+<div class="step completed"><span>✓</span><p>Company Overview</p></div>
+<div class="line"></div>
+<div class="step active"><span>2</span><p>Plant Workflow</p></div>
+<div class="line"></div>
+<div class="step"><span>3</span><p>Departments</p></div>
+<div class="line"></div>
+<div class="step"><span>4</span><p>SAP Learning</p></div>
+<div class="line"></div>
+<div class="step"><span>5</span><p>Assessment</p></div>
+
+</div>
+
+</section>
+
+<section class="quick-access">
+
+<h2>Quick Access</h2>
+
+<div class="quick-grid">
+
+<a href="../modules/company-overview.html" class="quick-card active">
+<i class="fa-solid fa-building"></i>
+<h3>Company Overview</h3>
+</a>
+
+<a href="../modules/plant-workflow.html" class="quick-card">
+<i class="fa-solid fa-industry"></i>
+<h3>Plant Workflow</h3>
+</a>
+
+<a href="../modules/departments.html" class="quick-card">
+<i class="fa-solid fa-sitemap"></i>
+<h3>Departments</h3>
+</a>
+
+<a href="../modules/assessments.html" class="quick-card">
+<i class="fa-solid fa-clipboard-question"></i>
+<h3>Assessments</h3>
+</a>
+
+<a href="../modules/certificates.html" class="quick-card">
+<i class="fa-solid fa-award"></i>
+<h3>Certificates</h3>
+</a>
+
+<a href="#" class="quick-card">
+<i class="fa-solid fa-user"></i>
+<h3>Profile</h3>
+</a>
+
+</div>
+
+</section>
+
+<section class="activity">
+
+<h2>Recent Activity</h2>
+
+<table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>Date</th>
+<th>Status</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Completed Company Overview</td>
+<td>Today</td>
+<td>✅ Completed</td>
+</tr>
+
+<tr>
+<td>Plant Workflow</td>
+<td>-</td>
+<td>⏳ Pending</td>
+</tr>
+
+</tbody>
+</table>
+
+</section>
+
+</div>
+
+<script src="../js/dashboard.js"></script>
+
+</body>
+</html>
